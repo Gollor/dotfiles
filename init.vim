@@ -24,6 +24,10 @@ Plugin 'airblade/vim-gitgutter' "Shows git diff in files
 Plugin 'ervandew/supertab' 
 Plugin 'w0rp/ale' "Linter
 Plugin 'scrooloose/nerdtree' "Directory tree, opened with :NERDTree
+Plugin 'Xuyuanp/nerdtree-git-plugin' "Git tags for Nerd Tree plugin
+Plugin 'idris-hackers/idris-vim' "Idris syntax highlighting
+Plugin 'elixir-editors/vim-elixir' " Elixir syntax highlighting
+Plugin 'slashmili/alchemist.vim' "Elixir autocompletion support
 call vundle#end()
 filetype plugin indent on
 colorscheme gruvbox "Use gruvbox for vim
